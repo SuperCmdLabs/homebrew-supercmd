@@ -1,15 +1,15 @@
 cask "supercmd" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.22"
-  sha256 arm:   "4f91a3a3acc4787a9682c5356f9870b1f91e59e8fd24f75b573f5071a5949c33",
-         intel: "8a034268501db16ac130853505d6d82c9e2f07e6cd929bb316d8fe3085f38f86"
+  version "1.0.23"
+  sha256 arm:   "138b5f99ecca291c3728dbe3608dfdc51e3f85e682273093ba1490d15512e2a5",
+         intel: "f86975e05c7fce4f967d46c21de8e0bcb5b6f249892541584571a6585d125fa5"
 
   url "https://github.com/SuperCmdLabs/SuperCmd/releases/download/#{version}/SuperCmd-#{version}#{"-arm64" if Hardware::CPU.arm?}.dmg",
       verified: "github.com/SuperCmdLabs/SuperCmd/"
 
   name "SuperCmd"
-  desc "Open-source Raycast-compatible launcher with voice, AI, and memory"
+  desc "Open Source, AI Native MacOS Launcher"
   homepage "https://supercmd.sh/"
 
   livecheck do
