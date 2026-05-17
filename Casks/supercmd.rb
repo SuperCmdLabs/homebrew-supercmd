@@ -1,7 +1,7 @@
 cask "supercmd" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.23"
+  version "1.0.24"
   sha256 arm:   "138b5f99ecca291c3728dbe3608dfdc51e3f85e682273093ba1490d15512e2a5",
          intel: "f86975e05c7fce4f967d46c21de8e0bcb5b6f249892541584571a6585d125fa5"
 
