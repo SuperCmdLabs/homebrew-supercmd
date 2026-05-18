@@ -3,7 +3,7 @@ cask "supercmd" do
 
   version "1.0.24"
   sha256 arm:   "1e380aa224748308862ece3ebd773ba94a3588dba5a903803301d19fc858450a",
-         intel: "f86975e05c7fce4f967d46c21de8e0bcb5b6f249892541584571a6585d125fa5"
+         intel: "574aca9e3598c500dbd2360993d4a74c7dc732963b3811671b5d80632cdab0b1"
 
   url "https://github.com/SuperCmdLabs/SuperCmd/releases/download/#{version}/SuperCmd-#{version}#{"-arm64" if Hardware::CPU.arm?}.dmg",
       verified: "github.com/SuperCmdLabs/SuperCmd/"
