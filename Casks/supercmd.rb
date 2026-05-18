@@ -2,7 +2,7 @@ cask "supercmd" do
   arch arm: "arm64", intel: "x64"
 
   version "1.0.24"
-  sha256 arm:   "138b5f99ecca291c3728dbe3608dfdc51e3f85e682273093ba1490d15512e2a5",
+  sha256 arm:   "1e380aa224748308862ece3ebd773ba94a3588dba5a903803301d19fc858450a",
          intel: "f86975e05c7fce4f967d46c21de8e0bcb5b6f249892541584571a6585d125fa5"
 
   url "https://github.com/SuperCmdLabs/SuperCmd/releases/download/#{version}/SuperCmd-#{version}#{"-arm64" if Hardware::CPU.arm?}.dmg",
