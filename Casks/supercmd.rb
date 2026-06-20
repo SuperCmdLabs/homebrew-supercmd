@@ -1,9 +1,9 @@
 cask "supercmd" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.25"
-  sha256 arm:   "af0503d668d82c9728ed40110fa75f8315361c68078535aabfa7a31827c7ff57",
-         intel: "5a595643f245354e5c38a8ea5351e5efb880bc71fad6aafba73371406813642b"
+  version "1.0.26"
+  sha256 arm:   "33d1fd9cfdb07cd28ccd5517a4f540a17d645aedf1cb36d9e97e4453cac45171",
+         intel: "0a828f9002e6b2bd3be479d73983d5f121efb5d013f8a2f8f52fd828eed1591c"
 
   url "https://github.com/SuperCmdLabs/SuperCmd/releases/download/#{version}/SuperCmd-#{version}#{"-arm64" if Hardware::CPU.arm?}.dmg",
       verified: "github.com/SuperCmdLabs/SuperCmd/"
